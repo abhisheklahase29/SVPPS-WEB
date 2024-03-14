@@ -13,7 +13,8 @@ body {
 
 nav {
   background: #0082e6;
-  
+  position: relative; 
+  z-index: 999;
   height: 80px;
   width: 100%;
 
@@ -263,12 +264,7 @@ section {
   margin-right: 30px;
 }
 
-/* marque 
- .header-2 {
-  background-color: yellowgreen;
-  font-weight: 600;
-  height: 50px;
-} */
+
 
 .marque1 {
   height: 25px;
@@ -282,6 +278,7 @@ section {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  z-index: 1;
 }
 
 /* Hide the images by default */
@@ -495,7 +492,7 @@ body {
 
 .third-block h5 {
   margin: 0;
-  /* Remove default margin */
+  
 }
 
 
@@ -514,28 +511,6 @@ body {
   margin: auto;
 }
 
-/* .services {
-  width: 95%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 75px auto;
-  text-align: center;
-} */
-
-/* .card {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  margin: 0 20px;
-  padding: 20px 20px;
-  background-color: #efefef;
-  border-radius: 10px;
-  cursor: pointer;
-  border: 3px solid black;
-  /* border-radius: 6px solid black; */
 
 
 .card:hover {
@@ -548,11 +523,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* .card h2 {
-  font-size: 28px;
-  color: #c94f4f;
-  margin-bottom: 20px;
-} */
 
 .card p {
   font-size: 17px;
