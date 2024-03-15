@@ -1,36 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Info</title>
+    <title>School Information</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        /* .main{
-            width: 100px;
-            height: 100px;
-            background-color: brown;
-        } */
-        .first{
-            width: 60%;
-            background-color: aqua;
-        }
-        .second{
-            width: 35%;
-            background-color: blue;
-        }
+        /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
     </style>
 </head>
-
 <body>
+    <header>
+        <h1>Welcome to Our School</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to our school! We strive to provide high-quality education to all our students.</p>
+    </section>
+    
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <ul>
+            <li>Mathematics</li>
+            <li>Science</li>
+            <li>History</li>
+            <li>Literature</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to contact us:</p>
+        <address>
+            Email: info@ourschool.com<br>
+            Phone: 123-456-7890
+        </address>
+    </section>
 
-    <div class="main" style="width: 100%; ">
-        <div class="first"></div>
-        <div class="second">
-            <div class="inner1"></div>
-            <div class="inner2"></div>
-        </div>
-    </div>
+    <footer>
+        <p>&copy; 2024 Our School. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>

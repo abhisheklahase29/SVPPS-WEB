@@ -1,16 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prize Distribution</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.prize {
+    text-align: center;
+}
+
+.prize img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
 </head>
-
 <body>
-
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo assumenda consequuntur soluta voluptates sit
-    maiores iste libero eius modi quod!
+    <header>
+        <h1>Prize Distribution Ceremony</h1>
+    </header>
+    
+    <main>
+        <section id="firstPlace">
+            <h2>First Place</h2>
+            <div class="prize">
+                <img src="first_place_medal.png" alt="First Place Medal">
+                <p>Congratulations to the winner!</p>
+                <p>Prize: $1000</p>
+            </div>
+        </section>
+        
+        <section id="secondPlace">
+            <h2>Second Place</h2>
+            <div class="prize">
+                <img src="second_place_medal.png" alt="Second Place Medal">
+                <p>Well done!</p>
+                <p>Prize: $500</p>
+            </div>
+        </section>
+        
+        <section id="thirdPlace">
+            <h2>Third Place</h2>
+            <div class="prize">
+                <img src="third_place_medal.png" alt="Third Place Medal">
+                <p>Great job!</p>
+                <p>Prize: $250</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Prize Distribution Organization. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
