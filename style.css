@@ -483,6 +483,8 @@ body {
     padding: 10px 0;
 }
 
+
+
 /* new added css */
   .carding {
     margin-bottom: 5px;
@@ -495,6 +497,7 @@ body {
     margin-bottom: 60px;
     margin-top: 50px;
 
+    
 
 }
 
@@ -675,6 +678,7 @@ body {
 .container {
   max-width: 1170px;
   margin: auto;
+  
 }
 
 .row {
@@ -782,12 +786,11 @@ ul {
   top: 0;
 }
 
-/* .affix {
-  top: 0;
-  width: 100%;
-  z-index: 9999 !important;
+.nav{
+  background-color: #0099ff;
 }
 
-.affix+.container-fluid {
-  padding-top: 70px;
-} */
+#classbutton{
+  text-align: center;
+  align-items: center;
+}

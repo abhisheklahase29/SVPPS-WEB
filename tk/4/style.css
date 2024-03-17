@@ -1,0 +1,671 @@
+/* navbarcode   */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+}
+
+nav {
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  /* text-transform: uppercase; */
+}
+
+a.active,
+a:hover {
+  background: #1b9bff;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+
+section {
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+
+
+.dropbtn1,
+.dropbtn2,
+.dropbtn3 {
+  background-color: #0082e6;
+  color: white;
+  padding: 12px;
+  ;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropbtn1:hover,
+.dropbtn1:focus,
+.dropbtn2:hover,
+.dropbtn2:focus,
+.dropbtn3:hover,
+.dropbtn3:focus {
+  background-color: #1b9bff;
+}
+
+
+.dropdown1,
+.dropdown2,
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content1,
+.dropdown-content2,
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.dropdown-content1 a,
+.dropdown-content2 a,
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content1 a:hover,
+.dropdown-content2 a:hover,
+.dropdown-content3 a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdown1:hover .dropdown-content1,
+.dropdown2:hover .dropdown-content2,
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+
+
+.dropdown1:hover .dropbtn1,
+.dropdown2:hover .dropbtn2,
+.dropdown3:hover .dropbtn3 {
+  background-color: #1b9bff;
+}
+
+@media screen and (max-width: 600px) {
+
+  .dropbtn1,
+  .dropbtn2,
+  .dropbtn3 {
+    width: 100%;
+    text-align: center;
+  }
+
+
+  .dropbtn1,
+  .dropbtn2,
+  .dropbtn3 {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+
+  .dropdown-content1,
+  .dropdown-content2,
+  .dropdown-content3 {
+    top: 100%;
+    left: 0;
+    right: 0;
+  }
+}
+
+/* schoolname */
+
+.header-3 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  padding: 50px;
+  text-align: center;
+  /* background-color: #0082e6; */
+}
+
+@media screen and (max-width: 600px) {
+
+  h2,
+  h1 {
+    font-size: 15px;
+  }
+}
+
+.img-1 {
+  border-radius: 2px solid black;
+  margin-left: 40px;
+}
+
+.contact {
+  margin-right: 30px;
+}
+
+/* marque 
+ .header-2 {
+  background-color: yellowgreen;
+  font-weight: 600;
+  height: 50px;
+} */
+
+.marque1 {
+  height: 25px;
+  background-color: chartreuse;
+  font-weight: bold;
+  font-size: medium;
+}
+
+/* slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.2s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+
+/* schoolimages */
+.main-section {
+  width: 100%;
+  height: 80px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.img-nav {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+
+}
+
+.img-nav {
+  padding: 10px;
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+body {
+  width: 100%;
+  background-color: #809faa;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* school info mission and vision */
+
+* {
+  box-sizing: border-box
+}
+
+.second_info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  text-align: center;
+  /* background-color: aqua; */
+  font-size: 1.6rem;
+}
+
+.first_block {
+  text-align: center;
+  /* Center the content */
+  max-width: 100%;
+  /* Ensure the block takes full width */
+}
+
+.first_block>* {
+  display: block;
+  /* Make child elements block */
+  margin: 10px auto;
+  /* Center the child elements */
+  text-align: left;
+  /* Reset text alignment for child elements */
+}
+
+@media screen and (max-width: 768px) {
+  .first_block {
+    overflow-x: hidden;
+    white-space: normal;
+  }
+}
+
+.main_info {
+  align-items: center;
+  text-align: center;
+  /* color: aquamarine; */
+  border: 2px solid blueviolet;
+  height: 600px;
+  margin-bottom: 50px;
+}
+
+.second_block {
+  display: flex;
+  flex-direction: column;
+  /* Align child elements vertically */
+  align-items: center;
+  /* Center child elements horizontally */
+  max-width: 100%;
+  margin: 0 auto;
+  /* padding: 10px; */
+  /* Add padding for better spacing */
+  border: 3px solid blue;
+  height: 150px;
+}
+
+.third-block {
+  background-color: #1aa3ff;
+  padding: 10px;
+  /* Add padding for better appearance */
+  border-radius: 5px;
+  /* Add border radius for rounded corners */
+  color: white;
+  /* Change text color to white */
+  text-align: center;
+  /* Center text inside the block */
+  width: fit-content;
+  /* Adjust width based on content */
+  border: 2px solid blueviolet;
+}
+
+.third-block h5 {
+  margin: 0;
+  /* Remove default margin */
+}
+
+
+.title h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 42px;
+}
+
+.title h1::after {
+  content: "";
+  height: 4px;
+  width: 230px;
+  background-color: #000;
+  display: block;
+  margin: auto;
+}
+
+/* .services {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 75px auto;
+  text-align: center;
+} */
+
+/* .card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 20px;
+  padding: 20px 20px;
+  background-color: #efefef;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 3px solid black;
+  /* border-radius: 6px solid black; */
+
+
+.card:hover {
+  background-color: #b8d4de;
+  transition: 0.4s ease;
+}
+
+.card .icon {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+/* .card h2 {
+  font-size: 28px;
+  color: #c94f4f;
+  margin-bottom: 20px;
+} */
+
+.card p {
+  font-size: 17px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: #5e5e5e;
+}
+
+@media screen and(max-width:940px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 85%;
+    display: flex;
+    margin: 20px 0;
+  }
+}
+
+
+/* Footer */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.container{
+  height: 100%px;
+}
+
+
+
