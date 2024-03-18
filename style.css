@@ -13,9 +13,9 @@ body {
 
 nav {
   background: #0099ff;
-  position: sticky;
+  position: Fixed;
   top: 0;
-  z-index: 999; /* Ensure it stays on top of other content */
+  z-index: 1000; /* Ensure it stays on top of other content */
 }
 
 label.logo {
@@ -114,9 +114,9 @@ a:hover {
 }
 
 section {
-  background: url(bg1.jpg) no-repeat;
+  /* background: url(bg1.jpg) no-repeat;
   background-size: cover;
-  height: calc(100vh - 80px);
+  height: calc(100vh - 80px); */
 }
 
 
@@ -774,8 +774,12 @@ ul {
 /* new css of content */
 .section {
   border: 2px solid blue;
+  margin-top: 60px;
+  padding: 0;
+  position: relative;
+  z-index: 1;
 }
-
+/* 
 .nav {
   position: sticky;
   top: 0;
@@ -783,7 +787,7 @@ ul {
 
 .nav{
   background-color: #0099ff;
-}
+} */
 
 #classbutton{
   text-align: center;
