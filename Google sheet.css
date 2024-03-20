@@ -43,3 +43,9 @@ textarea{
 #submit:hover{
 	background-color: #333333;
 }
+
+/* updated css */
+.container{
+	height: 640px;
+	width: 400px;
+}
