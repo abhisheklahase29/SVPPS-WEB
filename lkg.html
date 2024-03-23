@@ -54,10 +54,68 @@
         padding: 10px 0;
     }
 </style>
+<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <style>
+        nav {
+          background-color: #0099ff;
+          position: fixed;
+          width: 100%; 
+          z-index: 1000; 
+          top: 0;
+          margin-bottom: 30px;
+        }
+    
+        
+      </style>
+
 </head>
+
 <body>
+    
+
+
+    <nav style="background-color: #0099ff;">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i style="border: 2px solid black; padding: 5px; border-radius: 10px; font-size: 30px;" class="fas fa-bars"></i> 
+        </label>
+        <label class="logo">SVPPS </label>
+        <ul>
+            <li><a style="color: white;" class="active" href="index.html">Home</a></li>
+            <div class="dropdown1" style="padding: 0px;">
+                <button class="dropbtn1">About Us</button>
+                <div class="dropdown-content1">
+                    <a href="school_info.html">School Information</a>
+                    <a href="infrainside.html">Infrastructure</a>
+                    <a href="academic.html">Academices</a>
+                </div>
+            </div>
+            <li><a href="principalstaffgallery.html">Principal and Staff</a></li>
+            <div class="dropdown2">
+                <button class="dropbtn2">Photo Gallery</button>
+                <div class="dropdown-content2">
+                    <a href="galleryinside.html">Events</a>
+                    <a href="activityinside.html">School Achivements</a>
+                    <a href="tripinside.html">Trip</a>
+                    <a href="prizedistrubutioninside.html">Prize Distrubution</a>
+                    <a href="school_info.html">About School</a>
+                </div>
+            </div>
+            <li><a href="mediacoverageinside.html">Media Coverage</a></li>
+            <div class="dropdown3">
+                <button class="dropbtn3">Events</button>
+                <div class="dropdown-content3">
+                    <a href="annualdayinside.html">Annual Day</a>
+                    <a href="sportsinside.html">Sports Day</a>
+                </div>
+            </div>
+            <li><a href="indexcontact.html">Contact</a></li>
+        </ul>
+    </nav>
     <header>
-        <h1>Welcome to Sr. Kg.</h1>
+        <h1 style="margin-top: 90px;" >Welcome to Sr. Kg.</h1>
     </header>
     <!-- <nav>
         <ul>
@@ -67,9 +125,9 @@
             <li><a href="#">Contact Us</a></li>
         </ul>
     </nav> -->
-    <div class="container">
+    <div style="margin-top: 50px;" class="container">
         <div class="content">
-            <h2>Sr. Kg.</h2>
+            <h2 >Sr. Kg.</h2>
             <p>LKG (Lower Kindergarten) is the first formal year of schooling in many educational systems around the world. It focuses on introducing young children to basic concepts and preparing them for further education.</p>
             <p>This is a sample LKG page created using HTML and CSS.</p>
         </div>

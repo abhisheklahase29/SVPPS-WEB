@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Academic Page</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         /* Reset CSS */
 * {
@@ -60,14 +61,72 @@ footer {
 }
 
     </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+<style>
+    nav {
+      background-color: #0099ff;
+      position: fixed; /* Add this line */
+      width: 100%; /* Ensure full width */
+      z-index: 1000; /* Ensure it's above other content */
+      top: 0;
+      margin-bottom: 30px;
+    }
+
+    /* Additional CSS styling... */
+  </style>
+
 </head>
+
 <body>
-    <header>
+
+<nav style="background-color: #0099ff;">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i style="border: 2px solid black; padding: 5px; border-radius: 10px; font-size: 30px;" class="fas fa-bars"></i> 
+    </label>
+    <label class="logo">SVPPS </label>
+    <ul>
+        <li><a style="color: white;" class="active" href="index.html">Home</a></li>
+      <!-- <li><a href="#">About</a></li> -->
+      <div class="dropdown1" style="padding: 0px;">
+        <button class="dropbtn1">About Us</button>
+        <div class="dropdown-content1">
+          <a href="school_info.html">School Information</a>
+          <a href="infrainside.html">Infrastructure</a>
+          <a href="academic.html">Academices</a>
+        </div>
+      </div>
+      <li><a href="principalstaffgallery.html">Principal and Staff</a></li>
+      <div class="dropdown2">
+        <button class="dropbtn2">Photo Gallery</button>
+        <div class="dropdown-content2">
+          <a href="galleryinside.html">Events</a>
+          <a href="activityinside.html">School Achivements</a>
+          <a href="tripinside.html">Trip</a>
+          <a href="prizedistrubutioninside.html">Prize Distrubution</a>
+          <a href="school_info.html">About School</a>
+        </div>
+      </div>
+      <li><a href="mediacoverageinside.html">Media Coverage</a></li>
+      <div class="dropdown3">
+        <button class="dropbtn3">Events</button>
+        <div class="dropdown-content3">
+          <a href="annualdayinside.html">Annual Day</a>
+          <a href="sportsinside.html">Sports Day</a>
+        </div>
+      </div>
+      <li><a href="indexcontact.html">Contact</a></li>
+
+    </ul>
+  </nav>
+
+    <header style="margin-top: 70px;">
         <h1>School Academic Page</h1>
     </header>
     
     <main>
-        <section>
+        <section style="height: auto;">
             <h2>Courses Offered</h2>
             <ul>
                 <li>Mathematics</li>
@@ -78,18 +137,18 @@ footer {
             </ul>
         </section>
         
-        <section>
+        <section style="height: auto;">
             <h2>Academic Calendar</h2>
             <p>Our academic calendar outlines important dates such as term start and end dates, holidays, exam schedules, and other academic events.</p>
             <p>Please refer to the academic calendar for the current academic year for detailed information.</p>
         </section>
         
-        <section>
+        <section style="height: auto;">
             <h2>Faculty</h2>
             <p>Our dedicated faculty comprises highly qualified and experienced educators who are committed to providing quality education and guidance to our students.</p>
         </section>
         
-        <section>
+        <section style="height: auto;">
             <h2>Student Resources</h2>
             <p>We offer various resources and support services to help students succeed academically, including tutoring, study groups, and access to online learning materials.</p>
         </section>
