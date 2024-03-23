@@ -15,7 +15,8 @@ nav {
   background: #0099ff;
   position: sticky;
   top: 0;
-  z-index: 999; /* Ensure it stays on top of other content */
+  z-index: 999;
+  /* Ensure it stays on top of other content */
 }
 
 label.logo {
@@ -417,95 +418,96 @@ body {
     justify-content: center;
     align-items: center;
     /* min-height: 100vh; */
-    /* height: 300px;
+/* height: 300px;
     width: 200px; */
-    /* user-select: none; */
-/* } */ 
+/* user-select: none; */
+/* } */
 
-.carding{
-  height:1000px ;
-  width:100% ;
+.carding {
+  height: 1000px;
+  width: 100%;
   margin-top: 10px;
-  
-  
-  
-  
+
+
+
+
 }
 
-.card2{
-    border-radius: 10px;
-    filter: drop-shadow(0 5px 10px 0 #ffffff);
-    width: 400px;
-    height: 180px;
-    background-color: #ffffff;
-    padding: 20px;
-    position: relative;
-    z-index: 0;
-    overflow: hidden;
+.card2 {
+  border-radius: 10px;
+  filter: drop-shadow(0 5px 10px 0 #ffffff);
+  width: 400px;
+  height: 180px;
+  background-color: #ffffff;
+  padding: 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
 
-    transition: 0.6s ease-in;
+  transition: 0.6s ease-in;
 }
 
 .card2::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: -15px;
-    right: -15px;
-    background: #7952b3;
-    height: 220px;
-    width: 25px;
-    border-radius: 32px;
-    transform: scale(1);
-    transform-origin: 50% 50%;
-    transition: transform 0.25s ease-out;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -15px;
+  right: -15px;
+  background: #7952b3;
+  height: 220px;
+  width: 25px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.25s ease-out;
 }
 
 .card2:hover::before {
-    transition-delay: 0.2s;
+  transition-delay: 0.2s;
 
-    transform: scale(40);
+  transform: scale(40);
 }
 
 .card2:hover {
-    color: #ffffff;
+  color: #ffffff;
 
 }
 
 .card2 p {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 
 
 /* new added css */
-  .carding {
-    margin-bottom: 5px;
-    background-color: yellowgreen;
-     padding: 50px; 
+.carding {
+  margin-bottom: 5px;
+  background-color: yellowgreen;
+  padding: 50px;
 
 }
 
 .row {
-    margin-bottom: 60px;
-    margin-top: 50px;
+  margin-bottom: 60px;
+  margin-top: 50px;
 
-    
+
 
 }
 
 
 
 .card {
-    text-align: center;
-    margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
-.card3{
-    margin-top: 20px;
-    font-size: 30px;
-} 
 
- 
+.card3 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+
 
 /* school info mission and vision */
 
@@ -599,7 +601,7 @@ body {
 
 .third-block h5 {
   margin: 0;
-  
+
 }
 
 
@@ -772,7 +774,7 @@ body {
   bottom: 80px;
   transform: translateX(100%);
   transition: transform 0.4s ease-in-out;
-} */ 
+} */
 
 /* .social-panel-container.visible {
   transform: translateX(-10px);
@@ -924,7 +926,7 @@ body {
   .floating-btn {
     right: 10px;
   }
-} */ 
+} */
 
 
 /* Footer */
@@ -946,7 +948,7 @@ body {
 .container {
   max-width: 1170px;
   margin: auto;
-  
+
 }
 
 .row {
@@ -1054,30 +1056,35 @@ ul {
   top: 0;
 }
 
-.nav{
+.nav {
   background-color: #0099ff;
 }
 
-#classbutton{
+#classbutton {
   text-align: center;
   align-items: center;
 }
 
 /* updated css */
-.main-section{
-height: 80px;
+.main-section {
+  height: 80px;
 
 }
 
-.marque2{
+.marque2 {
   /* height: 50px; */
 }
-.marque1{
+
+.marque1 {
   height: 30px;
 }
 
-.schoolname-main{
+.schoolname-main {
   text-align: center;
-   /* margin-right: 250px; */
+  /* margin-right: 250px; */
 }
 
+.googletranslate{
+  background-color:whitesmoke;
+  border: 3px solid black;
+}
