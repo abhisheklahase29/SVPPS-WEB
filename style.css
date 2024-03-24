@@ -4,6 +4,13 @@ h2,h3{
 }
 
 
+
+.googletranslate{
+    z-index: 1005;
+    margin-top: auto;
+    /* width: fit-content; */
+}
+
 /* Navbar CSS goes Here */
 
 nav {
@@ -109,6 +116,10 @@ background-color: #1b9bff;
 
 @media screen and (max-width: 600px) {
 
+  .sardarphoto{
+    margin-top: auto;
+  }
+
 .dropbtn1,
 .dropbtn2,
 .dropbtn3 {
@@ -200,6 +211,7 @@ label.logo {
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
+  margin-left: 70px;
 }
 
 a.active,
@@ -278,7 +290,7 @@ section {
 
   
   h2,h3 {
-    font-size: 19px;
+    font-size: 14px;
     margin-right: 10px;
   }
   
