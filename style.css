@@ -148,6 +148,14 @@ background-color: #1b9bff;
 
 @media (max-width: 952px){
 
+  
+  .googletranslate {
+
+    margin: 0;
+  }
+  nav {
+    
+  }
 
   .sardarphoto {
       margin-top: none;
