@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en" dir="ltr">
+<html style="background-color: white;" lang="en" dir="ltr">
   
 
 <head>
@@ -19,7 +19,17 @@
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
-    
+    <style>
+      nav {
+        background-color: #0099ff;
+        position: fixed; /* Add this line */
+        width: 100%; /* Ensure full width */
+        z-index: 1000; /* Ensure it's above other content */
+        
+      }
+  
+      /* Additional CSS styling... */
+    </style>
 
 </head>
 
@@ -56,7 +66,7 @@
     </label>
     <label class="logo">SVPPS </label>
     <ul>
-      <li><a class="active" href="index.html">Home</a></li>
+      <li><a style="color: white;" class="active" href="index.html">Home</a></li>
       <!-- <li><a href="#">About</a></li> -->
       <div class="dropdown1" style="padding: 0px;">
         <button class="dropbtn1">About Us</button>
@@ -92,6 +102,7 @@
 
 
   <!-- 2nd section starts -->
+ <div style="margin-top: 70px;" class="sardarphoto">
   <div style="background-color:white; margin-bottom: 1px;" class="main-section">
     <div class="img-1">
       <img src="sar.jpeg" alt="Sardar" height="75px" width="75px" style="border-radius: 50%;">
@@ -99,13 +110,12 @@
 
     <div class="school-name">
       <div class="schoolname-main">
-        <h2>Rashtriya Dynan Vikas Mandal,s</h2>
+        <h2 style="right: 50PX;"> Rashtriya Dynan Vikas Mandal </h2>
         <h3>Saradar Vallabhai Patel School, Udgir</h3>
       </div>
-      <!-- <h2 >Rashtriya Dynan Vikas Mandal,s</h2>
-      <h3>Saradar Vallabhai Patel School, Udgir</h3> -->
     </div>
-
+  </div>
+</div>
     <!-- <div class="school-name">
       <h2 >Rashtriya Dynan Vikas Mandal,</h2>
       <h1 style="margin-bottom: 5px;">Saradar Vallabhai Patel School, Udgir</h1>

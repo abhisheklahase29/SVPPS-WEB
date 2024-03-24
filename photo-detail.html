@@ -8,61 +8,67 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
-    <!--
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <style>
+        nav {
+          background-color: #0099ff;
+          position: fixed; /* Add this line */
+          width: 100%; /* Ensure full width */
+          z-index: 1000; /* Ensure it's above other content */
+          top: 0;
+          margin-bottom: 30px;
+        }
     
-TemplateMo 556 Catalog-Z
+        /* Additional CSS styling... */
+      </style>
 
-https://templatemo.com/tm-556-catalog-z
-
--->
 </head>
 
 <body>
-    <!-- Page Loader -->
-    <!-- <div id="loader-wrapper">
-        <div id="loader"></div>
 
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-
-    </div> -->
-    <!-- <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <i class="fas fa-film mr-2"></i>
-                Catalog-Z
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link nav-link-1 active" aria-current="page" href="index.html">Photos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-2" href="videos.html">Videos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-3" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-link-4" href="contact.html">Contact</a>
-                </li>
-            </ul>
+    <nav style="background-color: #0099ff;">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i style="border: 2px solid black; padding: 5px; border-radius: 10px; font-size: 30px;" class="fas fa-bars"></i> 
+        </label>
+        <label class="logo">SVPPS </label>
+        <ul>
+            <li><a style="color: white;" class="active" href="index.html">Home</a></li>
+          <!-- <li><a href="#">About</a></li> -->
+          <div class="dropdown1" style="padding: 0px;">
+            <button class="dropbtn1">About Us</button>
+            <div class="dropdown-content1">
+              <a href="school_info.html">School Information</a>
+              <a href="infrainside.html">Infrastructure</a>
+              <a href="academic.html">Academices</a>
             </div>
-        </div>
-    </nav> -->
-
-    <!-- <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/hero.jpg">
-        <form class="d-flex tm-search-form">
-            <input class="form-control tm-search-input" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success tm-search-btn" type="submit">
-                <i class="fas fa-search"></i>
-            </button>
-        </form>
-    </div> -->
-
+          </div>
+          <li><a href="principalstaffgallery.html">Principal and Staff</a></li>
+          <div class="dropdown2">
+            <button class="dropbtn2">Photo Gallery</button>
+            <div class="dropdown-content2">
+              <a href="galleryinside.html">Events</a>
+              <a href="activityinside.html">School Achivements</a>
+              <a href="tripinside.html">Trip</a>
+              <a href="prizedistrubutioninside.html">Prize Distrubution</a>
+              <a href="school_info.html">About School</a>
+            </div>
+          </div>
+          <li><a href="mediacoverageinside.html">Media Coverage</a></li>
+          <div class="dropdown3">
+            <button class="dropbtn3">Events</button>
+            <div class="dropdown-content3">
+              <a href="annualdayinside.html">Annual Day</a>
+              <a href="sportsinside.html">Sports Day</a>
+            </div>
+          </div>
+          <li><a href="indexcontact.html">Contact</a></li>
+    
+        </ul>
+      </nav>
+    
     <div class="container-fluid tm-container-content tm-mt-60">
         <div class="row mb-4">
             <h2 class="col-12 tm-text-primary">Teacher Info</h2>

@@ -56,25 +56,78 @@ footer {
 }
 
     </style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+<style>
+    nav {
+      background-color: #0099ff;
+      position: fixed; /* Add this line */
+      width: 100%; /* Ensure full width */
+      z-index: 1000; /* Ensure it's above other content */
+      top: 0;
+      margin-bottom: 30px;
+    }
+
+    /* Additional CSS styling... */
+  </style>
+
 </head>
+
 <body>
+
+<nav style="background-color: #0099ff;">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i style="border: 2px solid black; padding: 5px; border-radius: 10px; font-size: 30px;" class="fas fa-bars"></i> 
+    </label>
+    <label class="logo">SVPPS </label>
+    <ul>
+        <li><a style="color: white;" class="active" href="index.html">Home</a></li>
+      <!-- <li><a href="#">About</a></li> -->
+      <div class="dropdown1" style="padding: 0px;">
+        <button class="dropbtn1">About Us</button>
+        <div class="dropdown-content1">
+          <a href="school_info.html">School Information</a>
+          <a href="infrainside.html">Infrastructure</a>
+          <a href="academic.html">Academices</a>
+        </div>
+      </div>
+      <li><a href="principalstaffgallery.html">Principal and Staff</a></li>
+      <div class="dropdown2">
+        <button class="dropbtn2">Photo Gallery</button>
+        <div class="dropdown-content2">
+          <a href="galleryinside.html">Events</a>
+          <a href="activityinside.html">School Achivements</a>
+          <a href="tripinside.html">Trip</a>
+          <a href="prizedistrubutioninside.html">Prize Distrubution</a>
+          <a href="school_info.html">About School</a>
+        </div>
+      </div>
+      <li><a href="mediacoverageinside.html">Media Coverage</a></li>
+      <div class="dropdown3">
+        <button class="dropbtn3">Events</button>
+        <div class="dropdown-content3">
+          <a href="annualdayinside.html">Annual Day</a>
+          <a href="sportsinside.html">Sports Day</a>
+        </div>
+      </div>
+      <li><a href="indexcontact.html">Contact</a></li>
+
+    </ul>
+  </nav>
+
     <header>
-        <h1>Welcome to Our School</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1 style="margin-top: 70px;">Welcome to Our School</h1>
+        
     </header>
-    
-    <section id="about">
+    <div style="background-color: white;">
+    <section style="background-color: whitesmoke; height: auto;" id="about">
         <h2>About Us</h2>
         <p>Welcome to our school! We strive to provide high-quality education to all our students.</p>
     </section>
     
-    <section id="courses">
+    <section style="background-color: whitesmoke; height: auto;" id="courses">
         <h2>Our Courses</h2>
         <ul>
             <li>Mathematics</li>
@@ -84,7 +137,7 @@ footer {
         </ul>
     </section>
     
-    <section id="contact">
+    <section style="background-color: whitesmoke; height: auto; margin-bottom: 50px;" id="contact">
         <h2>Contact Us</h2>
         <p>If you have any questions or inquiries, feel free to contact us:</p>
         <address>
@@ -92,6 +145,7 @@ footer {
             Phone: 123-456-7890
         </address>
     </section>
+</div>
 
     <footer>
         <p>&copy; 2024 Our School. All rights reserved.</p>
