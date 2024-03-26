@@ -855,3 +855,6 @@ ul {
   border: 3px solid black;
   /* margin-top: 2px; */
 }
+div.main-section{
+  height: 130px;
+}
