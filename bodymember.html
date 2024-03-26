@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Information</title>
+    <title>Director's Message</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         /* Reset CSS */
@@ -17,10 +17,11 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+   
 }
 
 header {
-    background-color: #333;
+    /* background-color: brown; */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -46,7 +47,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color:white;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -61,7 +62,7 @@ footer {
 
 <style>
     nav {
-      background-color: #0099ff;
+      background-color:oldlace;
       position: fixed; /* Add this line */
       width: 100%; /* Ensure full width */
       z-index: 1000; /* Ensure it's above other content */
@@ -70,6 +71,33 @@ footer {
     }
 
     /* Additional CSS styling... */
+
+    body {
+
+            background-color:white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .director-photo {
+            float: left;
+            margin-right: 20px;
+        }
+        .director-message {
+            overflow: hidden;
+           
+        }
+        .director-message h2 {
+            margin-top: 0;
+        }
+
   </style>
 
 </head>
@@ -118,37 +146,19 @@ footer {
   </nav>
 
     <header>
-        <h1 style="margin-top: 70px;">Welcome to Our School</h1>
-        
+        <h1 style="margin-top: 70px; color:black; font-size: large;">Body Member's</h1>
     </header>
-    <div style="background-color: white;">
-    <section style="background-color: whitesmoke; height: auto;" id="about">
-        <h2>About Us</h2>
-        <p>Welcome to our school! We strive to provide high-quality education to all our students.</p>
-    </section>
-    
-    <section style="background-color: whitesmoke; height: auto;" id="courses">
-        <h2>Our Courses</h2>
-        <ul>
-            <li>Mathematics</li>
-            <li>Science</li>
-            <li>History</li>
-            <li>Literature</li>
-        </ul>
-    </section>
-    
-    <section style="background-color: whitesmoke; height: auto; margin-bottom: 50px;" id="contact">
-        <h2>Contact Us</h2>
-        <p>If you have any questions or inquiries, feel free to contact us:</p>
-        <address>
-            Email: info@ourschool.com<br>
-            Phone: 123-456-7890
-        </address>
-    </section>
-</div>
 
-    <footer>
-        <p>&copy; 2024 Our School. All rights reserved.</p>
-    </footer>
+    <div style="background-color: white;" class="container">
+        <div class="director-photo">
+            <!-- <img src="" alt="Director's Photo" width="200"> -->
+        </div>
+        <div class="director-message">
+            <img style="height: fit-content;width: 100%;" src="Body Members/bodymember.jpg" alt="">
+        </div>
+    </div>
+    
+    
+        
 </body>
 </html>
