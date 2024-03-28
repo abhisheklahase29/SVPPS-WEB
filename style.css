@@ -4,7 +4,7 @@ h2,h3{
 }
 
 
-
+/* google translate code */
 .googletranslate{
     z-index: 1005;
     margin-top: auto;
@@ -313,7 +313,7 @@ section {
   margin-right: 30px;
 }
 
-
+/* marque */
 
 .marque1 {
   height: 25px;
@@ -322,7 +322,7 @@ section {
   font-size: medium;
 }
 
-/* slideshow */
+/* slideshow code */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
